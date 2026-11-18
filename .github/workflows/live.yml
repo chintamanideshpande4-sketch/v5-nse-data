@@ -1,0 +1,28 @@
+name: Live snapshot for Friday check
+
+on:
+  schedule:
+    - cron: '50 8 * * 5'    # Fri 14:20 IST
+    - cron: '5 9 * * 5'     # Fri 14:35 IST (second try; GitHub schedules can run late)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Live snapshot
+        run: python live_fetch.py
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A live
+          if git diff --staged --quiet; then echo "nothing new"; else git commit -m "Live snapshot $(date -u +%FT%H:%M)"; git pull --rebase -q; git push; fi
