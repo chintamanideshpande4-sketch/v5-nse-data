@@ -1,0 +1,28 @@
+name: Fetch NSE end-of-day files
+
+on:
+  schedule:
+    - cron: '7 14 * * 1-5'    # 19:37 IST
+    - cron: '7 16 * * 1-5'    # 21:37 IST (retry if NSE published late)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download NSE files
+        run: python fetch.py
+      - name: Commit new files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A nse
+          if git diff --staged --quiet; then echo "nothing new"; else git commit -m "NSE data $(date -u +%F)"; git push; fi
