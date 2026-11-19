@@ -2,8 +2,11 @@ name: Live snapshot for Friday check
 
 on:
   schedule:
+    - cron: '20 8 * * 5'           # Fri 13:50 IST
+    - cron: '35 8 * * 5'           # Fri 14:05 IST
     - cron: '50 8 * * 5'           # Fri 14:20 IST
-    - cron: '5 9 * * 5'            # Fri 14:35 IST (second try; GitHub schedules can run late)
+    - cron: '5 9 * * 5'            # Fri 14:35 IST
+    - cron: '20 9 * * 5'           # Fri 14:50 IST (for the 3:02 pm backup alert)
     - cron: '20 4,5,6,7,8,9 * * 4' # TEST: Thu 19-Nov-2026 hourly 09:50-14:50 IST (self-expiring)
     - cron: '10 10 * * 4'          # TEST: Thu 19-Nov-2026 15:40 IST after close (self-expiring)
   workflow_dispatch:
@@ -11,10 +14,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: live-snapshot
+  cancel-in-progress: false
+
 jobs:
   live:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,8 +29,7 @@ jobs:
           python-version: '3.12'
       - name: Live snapshot
         run: |
-          S="${{ github.event.schedule }}"
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$S" != "50 8 * * 5" ] && [ "$S" != "5 9 * * 5" ] && [ "$(TZ=Asia/Kolkata date +%F)" != "2026-11-19" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(TZ=Asia/Kolkata date +%u)" != "5" ] && [ "$(TZ=Asia/Kolkata date +%F)" != "2026-11-19" ]; then
             echo "test schedule expired"; echo "SKIP=1" >> "$GITHUB_ENV"; exit 0
           fi
           python live_fetch.py
@@ -33,4 +39,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A live
-          if git diff --staged --quiet; then echo "nothing new"; else git commit -m "Live snapshot $(date -u +%FT%H:%M)"; git pull --rebase -q; git push; fi
+          if git diff --staged --quiet; then echo "nothing new"; else git commit -m "Live snapshot $(date -u +%FT%H:%M)"; for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done; fi
