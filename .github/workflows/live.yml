@@ -2,8 +2,10 @@ name: Live snapshot for Friday check
 
 on:
   schedule:
-    - cron: '50 8 * * 5'    # Fri 14:20 IST
-    - cron: '5 9 * * 5'     # Fri 14:35 IST (second try; GitHub schedules can run late)
+    - cron: '50 8 * * 5'           # Fri 14:20 IST
+    - cron: '5 9 * * 5'            # Fri 14:35 IST (second try; GitHub schedules can run late)
+    - cron: '20 4,5,6,7,8,9 * * 4' # TEST: Thu 19-Nov-2026 hourly 09:50-14:50 IST (self-expiring)
+    - cron: '10 10 * * 4'          # TEST: Thu 19-Nov-2026 15:40 IST after close (self-expiring)
   workflow_dispatch:
 
 permissions:
@@ -19,8 +21,14 @@ jobs:
         with:
           python-version: '3.12'
       - name: Live snapshot
-        run: python live_fetch.py
+        run: |
+          S="${{ github.event.schedule }}"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$S" != "50 8 * * 5" ] && [ "$S" != "5 9 * * 5" ] && [ "$(TZ=Asia/Kolkata date +%F)" != "2026-11-19" ]; then
+            echo "test schedule expired"; echo "SKIP=1" >> "$GITHUB_ENV"; exit 0
+          fi
+          python live_fetch.py
       - name: Commit snapshot
+        if: env.SKIP != '1'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
