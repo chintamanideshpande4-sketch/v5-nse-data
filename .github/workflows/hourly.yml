@@ -1,0 +1,31 @@
+name: Research - hourly data (one-off)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  hourly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download 2 years of 60-minute bars
+        run: python fetch_hourly.py
+      - name: Save to the research-data branch (main is not touched)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/out && cp hourly/hourly_60m.csv.gz /tmp/out/
+          git checkout --orphan research-data
+          git rm -rf -q --cached .
+          rm -rf ./*
+          mkdir -p hourly && cp /tmp/out/hourly_60m.csv.gz hourly/
+          git add hourly/hourly_60m.csv.gz
+          git commit -q -m "Hourly research data $(date -u +%F)"
+          git push -f origin research-data
