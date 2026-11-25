@@ -1,0 +1,31 @@
+name: Research - 5-minute data (one-off)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fivemin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download ~59 days of 5-minute bars
+        run: python fetch_5m.py
+      - name: Save to the research-5m branch (main is not touched)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/out && cp fivemin/bars_5m.csv.gz /tmp/out/
+          git checkout --orphan research-5m
+          git rm -rf -q --cached .
+          rm -rf ./*
+          mkdir -p fivemin && cp /tmp/out/bars_5m.csv.gz fivemin/
+          git add fivemin/bars_5m.csv.gz
+          git commit -q -m "5-minute research data $(date -u +%F)"
+          git push -f origin research-5m
