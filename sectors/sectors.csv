@@ -1,0 +1,533 @@
+index,symbol,industry,company
+auto,ASHOKLEY,Capital Goods,Ashok Leyland Ltd.
+auto,BAJAJ-AUTO,Automobile and Auto Components,Bajaj Auto Ltd.
+auto,BHARATFORG,Automobile and Auto Components,Bharat Forge Ltd.
+auto,BOSCHLTD,Automobile and Auto Components,Bosch Ltd.
+auto,EICHERMOT,Automobile and Auto Components,Eicher Motors Ltd.
+auto,HEROMOTOCO,Automobile and Auto Components,Hero MotoCorp Ltd.
+auto,HYUNDAI,Automobile and Auto Components,Hyundai Motor India Ltd.
+auto,M&M,Automobile and Auto Components,Mahindra & Mahindra Ltd.
+auto,MARUTI,Automobile and Auto Components,Maruti Suzuki India Ltd.
+auto,MOTHERSON,Automobile and Auto Components,Samvardhana Motherson International Ltd.
+auto,SONACOMS,Automobile and Auto Components,Sona BLW Precision Forgings Ltd.
+auto,TVSMOTOR,Automobile and Auto Components,TVS Motor Company Ltd.
+auto,TMPV,Automobile and Auto Components,Tata Motors Passenger Vehicles Ltd.
+auto,TIINDIA,Automobile and Auto Components,Tube Investments of India Ltd.
+auto,UNOMINDA,Automobile and Auto Components,UNO Minda Ltd.
+bank,AUBANK,Financial Services,AU Small Finance Bank Ltd.
+bank,AXISBANK,Financial Services,Axis Bank Ltd.
+bank,BANKBARODA,Financial Services,Bank of Baroda
+bank,CANBK,Financial Services,Canara Bank
+bank,FEDERALBNK,Financial Services,Federal Bank Ltd.
+bank,HDFCBANK,Financial Services,HDFC Bank Ltd.
+bank,ICICIBANK,Financial Services,ICICI Bank Ltd.
+bank,IDFCFIRSTB,Financial Services,IDFC First Bank Ltd.
+bank,INDUSINDBK,Financial Services,IndusInd Bank Ltd.
+bank,KOTAKBANK,Financial Services,Kotak Mahindra Bank Ltd.
+bank,PNB,Financial Services,Punjab National Bank
+bank,SBIN,Financial Services,State Bank of India
+bank,UNIONBANK,Financial Services,Union Bank of India
+bank,YESBANK,Financial Services,Yes Bank Ltd.
+it,COFORGE,Information Technology,Coforge Ltd.
+it,HCLTECH,Information Technology,HCL Technologies Ltd.
+it,INFY,Information Technology,Infosys Ltd.
+it,LTM,Information Technology,LTM Ltd.
+it,MPHASIS,Information Technology,MphasiS Ltd.
+it,OFSS,Information Technology,Oracle Financial Services Software Ltd.
+it,PERSISTENT,Information Technology,Persistent Systems Ltd.
+it,TCS,Information Technology,Tata Consultancy Services Ltd.
+it,TECHM,Information Technology,Tech Mahindra Ltd.
+it,WIPRO,Information Technology,Wipro Ltd.
+pharma,ABBOTINDIA,Healthcare,Abbott India Ltd.
+pharma,AJANTPHARM,Healthcare,Ajanta Pharmaceuticals Ltd.
+pharma,ALKEM,Healthcare,Alkem Laboratories Ltd.
+pharma,AUROPHARMA,Healthcare,Aurobindo Pharma Ltd.
+pharma,BIOCON,Healthcare,Biocon Ltd.
+pharma,CIPLA,Healthcare,Cipla Ltd.
+pharma,DIVISLAB,Healthcare,Divi's Laboratories Ltd.
+pharma,DRREDDY,Healthcare,Dr. Reddy's Laboratories Ltd.
+pharma,GLAND,Healthcare,Gland Pharma Ltd.
+pharma,GLENMARK,Healthcare,Glenmark Pharmaceuticals Ltd.
+pharma,IPCALAB,Healthcare,Ipca Laboratories Ltd.
+pharma,LAURUSLABS,Healthcare,Laurus Labs Ltd.
+pharma,LUPIN,Healthcare,Lupin Ltd.
+pharma,MANKIND,Healthcare,Mankind Pharma Ltd.
+pharma,PPLPHARMA,Healthcare,Piramal Pharma Ltd.
+pharma,SAILIFE,Healthcare,Sai Life Sciences Ltd.
+pharma,SUNPHARMA,Healthcare,Sun Pharmaceutical Industries Ltd.
+pharma,TORNTPHARM,Healthcare,Torrent Pharmaceuticals Ltd.
+pharma,WOCKPHARMA,Healthcare,Wockhardt Ltd.
+pharma,ZYDUSLIFE,Healthcare,Zydus Lifesciences Ltd.
+fmcg,BRITANNIA,Fast Moving Consumer Goods,Britannia Industries Ltd.
+fmcg,COLPAL,Fast Moving Consumer Goods,Colgate Palmolive (India) Ltd.
+fmcg,DABUR,Fast Moving Consumer Goods,Dabur India Ltd.
+fmcg,GODFRYPHLP,Fast Moving Consumer Goods,Godfrey Phillips India Ltd.
+fmcg,GODREJCP,Fast Moving Consumer Goods,Godrej Consumer Products Ltd.
+fmcg,HINDUNILVR,Fast Moving Consumer Goods,Hindustan Unilever Ltd.
+fmcg,ITC,Fast Moving Consumer Goods,ITC Ltd.
+fmcg,MARICO,Fast Moving Consumer Goods,Marico Ltd.
+fmcg,NESTLEIND,Fast Moving Consumer Goods,Nestle India Ltd.
+fmcg,PATANJALI,Fast Moving Consumer Goods,Patanjali Foods Ltd.
+fmcg,RADICO,Fast Moving Consumer Goods,Radico Khaitan Ltd
+fmcg,TATACONSUM,Fast Moving Consumer Goods,Tata Consumer Products Ltd.
+fmcg,UBL,Fast Moving Consumer Goods,United Breweries Ltd.
+fmcg,UNITDSPR,Fast Moving Consumer Goods,United Spirits Ltd.
+fmcg,VBL,Fast Moving Consumer Goods,Varun Beverages Ltd.
+metal,APLAPOLLO,Capital Goods,APL Apollo Tubes Ltd.
+metal,ADANIENT,Metals & Mining,Adani Enterprises Ltd.
+metal,HINDALCO,Metals & Mining,Hindalco Industries Ltd.
+metal,HINDCOPPER,Metals & Mining,Hindustan Copper Ltd.
+metal,HINDZINC,Metals & Mining,Hindustan Zinc Ltd.
+metal,JSWSTEEL,Metals & Mining,JSW Steel Ltd.
+metal,JSL,Metals & Mining,Jindal Stainless Ltd.
+metal,JINDALSTEL,Metals & Mining,Jindal Steel Ltd.
+metal,LLOYDSME,Metals & Mining,Lloyds Metals And Energy Ltd.
+metal,NMDC,Metals & Mining,NMDC Ltd.
+metal,NATIONALUM,Metals & Mining,National Aluminium Co. Ltd.
+metal,SAIL,Metals & Mining,Steel Authority of India Ltd.
+metal,TATASTEEL,Metals & Mining,Tata Steel Ltd.
+metal,VAML,Metals & Mining,Vedanta Aluminium Metal Ltd.
+metal,VEDL,Metals & Mining,Vedanta Ltd.
+realty,ABREL,Realty,Aditya Birla Real Estate Ltd.
+realty,ANANTRAJ,Realty,Anant Raj Ltd.
+realty,BRIGADE,Realty,Brigade Enterprises Ltd.
+realty,DLF,Realty,DLF Ltd.
+realty,GODREJPROP,Realty,Godrej Properties Ltd.
+realty,LODHA,Realty,Lodha Developers Ltd.
+realty,OBEROIRLTY,Realty,Oberoi Realty Ltd.
+realty,PHOENIXLTD,Realty,Phoenix Mills Ltd.
+realty,PRESTIGE,Realty,Prestige Estates Projects Ltd.
+realty,SOBHA,Realty,Sobha Ltd.
+energy,ABB,Capital Goods,ABB India Ltd.
+energy,ADANIENSOL,Power,Adani Energy Solutions Ltd.
+energy,ADANIGREEN,Power,Adani Green Energy Ltd.
+energy,ADANIPOWER,Power,Adani Power Ltd.
+energy,ATGL,Oil Gas & Consumable Fuels,Adani Total Gas Ltd.
+energy,AEGISLOG,Oil Gas & Consumable Fuels,Aegis Logistics Ltd.
+energy,BHEL,Capital Goods,Bharat Heavy Electricals Ltd.
+energy,BPCL,Oil Gas & Consumable Fuels,Bharat Petroleum Corporation Ltd.
+energy,CESC,Power,CESC Ltd.
+energy,CGPOWER,Capital Goods,CG Power and Industrial Solutions Ltd.
+energy,CASTROLIND,Oil Gas & Consumable Fuels,Castrol India Ltd.
+energy,COALINDIA,Oil Gas & Consumable Fuels,Coal India Ltd.
+energy,GAIL,Oil Gas & Consumable Fuels,GAIL (India) Ltd.
+energy,GVT&D,Capital Goods,GE Vernova T&D India Ltd.
+energy,HINDPETRO,Oil Gas & Consumable Fuels,Hindustan Petroleum Corporation Ltd.
+energy,POWERINDIA,Capital Goods,Hitachi Energy India Ltd.
+energy,IOC,Oil Gas & Consumable Fuels,Indian Oil Corporation Ltd.
+energy,IGL,Oil Gas & Consumable Fuels,Indraprastha Gas Ltd.
+energy,INOXWIND,Capital Goods,Inox Wind Ltd.
+energy,JSWENERGY,Power,JSW Energy Ltd.
+energy,JPPOWER,Power,Jaiprakash Power Ventures Ltd.
+energy,MGL,Oil Gas & Consumable Fuels,Mahanagar Gas Ltd.
+energy,NHPC,Power,NHPC Ltd.
+energy,NLCINDIA,Power,NLC India Ltd.
+energy,NTPCGREEN,Power,NTPC Green Energy Ltd.
+energy,NTPC,Power,NTPC Ltd.
+energy,NAVA,Power,Nava Ltd.
+energy,ONGC,Oil Gas & Consumable Fuels,Oil & Natural Gas Corporation Ltd.
+energy,OIL,Oil Gas & Consumable Fuels,Oil India Ltd.
+energy,PETRONET,Oil Gas & Consumable Fuels,Petronet LNG Ltd.
+energy,POWERGRID,Power,Power Grid Corporation of India Ltd.
+energy,RELIANCE,Oil Gas & Consumable Fuels,Reliance Industries Ltd.
+energy,RPOWER,Power,Reliance Power Ltd.
+energy,ENRIN,Capital Goods,Siemens Energy India Ltd.
+energy,SIEMENS,Capital Goods,Siemens Ltd.
+energy,SUZLON,Capital Goods,Suzlon Energy Ltd.
+energy,TDPOWERSYS,Capital Goods,TD Power Systems Ltd.
+energy,TATAPOWER,Power,Tata Power Co. Ltd.
+energy,THERMAX,Capital Goods,Thermax Ltd.
+energy,TORNTPOWER,Power,Torrent Power Ltd.
+media,DBCORP,Media Entertainment & Publication,D.B.Corp Ltd.
+media,MPSLTD,Media Entertainment & Publication,MPS Ltd.
+media,NAZARA,Media Entertainment & Publication,Nazara Technologies Ltd.
+media,NETWORK18,Media Entertainment & Publication,Network18 Media & Investments Ltd.
+media,PVRINOX,Media Entertainment & Publication,PVR INOX Ltd.
+media,PFOCUS,Media Entertainment & Publication,Prime Focus Ltd.
+media,SAREGAMA,Media Entertainment & Publication,Saregama India Ltd
+media,SUNTV,Media Entertainment & Publication,Sun TV Network Ltd.
+media,TIPSMUSIC,Media Entertainment & Publication,Tips Music Ltd.
+media,ZEEL,Media Entertainment & Publication,Zee Entertainment Enterprises Ltd.
+psu bank,BANKBARODA,Financial Services,Bank of Baroda
+psu bank,BANKINDIA,Financial Services,Bank of India
+psu bank,MAHABANK,Financial Services,Bank of Maharashtra
+psu bank,CANBK,Financial Services,Canara Bank
+psu bank,CENTRALBK,Financial Services,Central Bank of India
+psu bank,INDIANB,Financial Services,Indian Bank
+psu bank,IOB,Financial Services,Indian Overseas Bank
+psu bank,PSB,Financial Services,Punjab & Sind Bank
+psu bank,PNB,Financial Services,Punjab National Bank
+psu bank,SBIN,Financial Services,State Bank of India
+psu bank,UCOBANK,Financial Services,UCO Bank
+psu bank,UNIONBANK,Financial Services,Union Bank of India
+private bank,AXISBANK,Financial Services,Axis Bank Ltd.
+private bank,BANDHANBNK,Financial Services,Bandhan Bank Ltd.
+private bank,FEDERALBNK,Financial Services,Federal Bank Ltd.
+private bank,HDFCBANK,Financial Services,HDFC Bank Ltd.
+private bank,ICICIBANK,Financial Services,ICICI Bank Ltd.
+private bank,IDFCFIRSTB,Financial Services,IDFC First Bank Ltd.
+private bank,INDUSINDBK,Financial Services,IndusInd Bank Ltd.
+private bank,KOTAKBANK,Financial Services,Kotak Mahindra Bank Ltd.
+private bank,RBLBANK,Financial Services,RBL Bank Ltd.
+private bank,YESBANK,Financial Services,Yes Bank Ltd.
+financial services,AXISBANK,Financial Services,Axis Bank Ltd.
+financial services,BSE,Financial Services,BSE Ltd.
+financial services,BAJFINANCE,Financial Services,Bajaj Finance Ltd.
+financial services,BAJAJFINSV,Financial Services,Bajaj Finserv Ltd.
+financial services,CHOLAFIN,Financial Services,Cholamandalam Investment and Finance Company Ltd.
+financial services,HDFCBANK,Financial Services,HDFC Bank Ltd.
+financial services,HDFCLIFE,Financial Services,HDFC Life Insurance Company Ltd.
+financial services,ICICIBANK,Financial Services,ICICI Bank Ltd.
+financial services,ICICIGI,Financial Services,ICICI Lombard General Insurance Company Ltd.
+financial services,JIOFIN,Financial Services,Jio Financial Services Ltd.
+financial services,KOTAKBANK,Financial Services,Kotak Mahindra Bank Ltd.
+financial services,LICHSGFIN,Financial Services,LIC Housing Finance Ltd.
+financial services,MFSL,Financial Services,Max Financial Services Ltd.
+financial services,MUTHOOTFIN,Financial Services,Muthoot Finance Ltd.
+financial services,PFC,Financial Services,Power Finance Corporation Ltd.
+financial services,RECLTD,Financial Services,REC Ltd.
+financial services,SBICARD,Financial Services,SBI Cards and Payment Services Ltd.
+financial services,SBILIFE,Financial Services,SBI Life Insurance Company Ltd.
+financial services,SHRIRAMFIN,Financial Services,Shriram Finance Ltd.
+financial services,SBIN,Financial Services,State Bank of India
+infrastructure,ADANIGREEN,Power,Adani Green Energy Ltd.
+infrastructure,ADANIPORTS,Services,Adani Ports and Special Economic Zone Ltd.
+infrastructure,ADANIPOWER,Power,Adani Power Ltd.
+infrastructure,APOLLOHOSP,Healthcare,Apollo Hospitals Enterprise Ltd.
+infrastructure,ASHOKLEY,Capital Goods,Ashok Leyland Ltd.
+infrastructure,BHARATFORG,Automobile and Auto Components,Bharat Forge Ltd.
+infrastructure,BPCL,Oil Gas & Consumable Fuels,Bharat Petroleum Corporation Ltd.
+infrastructure,BHARTIARTL,Telecommunication,Bharti Airtel Ltd.
+infrastructure,CGPOWER,Capital Goods,CG Power and Industrial Solutions Ltd.
+infrastructure,CUMMINSIND,Capital Goods,Cummins India Ltd.
+infrastructure,DLF,Realty,DLF Ltd.
+infrastructure,FORTIS,Healthcare,Fortis Healthcare Ltd.
+infrastructure,GAIL,Oil Gas & Consumable Fuels,GAIL (India) Ltd.
+infrastructure,GVT&D,Capital Goods,GE Vernova T&D India Ltd.
+infrastructure,GRASIM,Construction Materials,Grasim Industries Ltd.
+infrastructure,HINDPETRO,Oil Gas & Consumable Fuels,Hindustan Petroleum Corporation Ltd.
+infrastructure,INDHOTEL,Consumer Services,Indian Hotels Co. Ltd.
+infrastructure,IOC,Oil Gas & Consumable Fuels,Indian Oil Corporation Ltd.
+infrastructure,INDUSTOWER,Telecommunication,Indus Towers Ltd.
+infrastructure,INDIGO,Services,InterGlobe Aviation Ltd.
+infrastructure,LT,Construction,Larsen & Toubro Ltd.
+infrastructure,MAXHEALTH,Healthcare,Max Healthcare Institute Ltd.
+infrastructure,NTPC,Power,NTPC Ltd.
+infrastructure,ONGC,Oil Gas & Consumable Fuels,Oil & Natural Gas Corporation Ltd.
+infrastructure,POWERGRID,Power,Power Grid Corporation of India Ltd.
+infrastructure,RELIANCE,Oil Gas & Consumable Fuels,Reliance Industries Ltd.
+infrastructure,MOTHERSON,Automobile and Auto Components,Samvardhana Motherson International Ltd.
+infrastructure,SUZLON,Capital Goods,Suzlon Energy Ltd.
+infrastructure,TATAPOWER,Power,Tata Power Co. Ltd.
+infrastructure,ULTRACEMCO,Construction Materials,UltraTech Cement Ltd.
+commodities,APLAPOLLO,Capital Goods,APL Apollo Tubes Ltd.
+commodities,ADANIENSOL,Power,Adani Energy Solutions Ltd.
+commodities,ADANIGREEN,Power,Adani Green Energy Ltd.
+commodities,ADANIPOWER,Power,Adani Power Ltd.
+commodities,AMBUJACEM,Construction Materials,Ambuja Cements Ltd.
+commodities,BPCL,Oil Gas & Consumable Fuels,Bharat Petroleum Corporation Ltd.
+commodities,COALINDIA,Oil Gas & Consumable Fuels,Coal India Ltd.
+commodities,GRASIM,Construction Materials,Grasim Industries Ltd.
+commodities,HINDALCO,Metals & Mining,Hindalco Industries Ltd.
+commodities,HINDPETRO,Oil Gas & Consumable Fuels,Hindustan Petroleum Corporation Ltd.
+commodities,IOC,Oil Gas & Consumable Fuels,Indian Oil Corporation Ltd.
+commodities,JSWENERGY,Power,JSW Energy Ltd.
+commodities,JSWSTEEL,Metals & Mining,JSW Steel Ltd.
+commodities,JINDALSTEL,Metals & Mining,Jindal Steel Ltd.
+commodities,NHPC,Power,NHPC Ltd.
+commodities,NMDC,Metals & Mining,NMDC Ltd.
+commodities,NTPC,Power,NTPC Ltd.
+commodities,ONGC,Oil Gas & Consumable Fuels,Oil & Natural Gas Corporation Ltd.
+commodities,OIL,Oil Gas & Consumable Fuels,Oil India Ltd.
+commodities,PIDILITIND,Chemicals,Pidilite Industries Ltd.
+commodities,RELIANCE,Oil Gas & Consumable Fuels,Reliance Industries Ltd.
+commodities,SRF,Chemicals,SRF Ltd.
+commodities,SHREECEM,Construction Materials,Shree Cement Ltd.
+commodities,TATAPOWER,Power,Tata Power Co. Ltd.
+commodities,TATASTEEL,Metals & Mining,Tata Steel Ltd.
+commodities,TORNTPOWER,Power,Torrent Power Ltd.
+commodities,UPL,Chemicals,UPL Ltd.
+commodities,ULTRACEMCO,Construction Materials,UltraTech Cement Ltd.
+commodities,VAML,Metals & Mining,Vedanta Aluminium Metal Ltd.
+commodities,VEDL,Metals & Mining,Vedanta Ltd.
+india consumption,APOLLOHOSP,Healthcare,Apollo Hospitals Enterprise Ltd.
+india consumption,ASIANPAINT,Consumer Durables,Asian Paints Ltd.
+india consumption,DMART,Consumer Services,Avenue Supermarts Ltd.
+india consumption,BAJAJ-AUTO,Automobile and Auto Components,Bajaj Auto Ltd.
+india consumption,BHARTIARTL,Telecommunication,Bharti Airtel Ltd.
+india consumption,BRITANNIA,Fast Moving Consumer Goods,Britannia Industries Ltd.
+india consumption,DLF,Realty,DLF Ltd.
+india consumption,DIXON,Consumer Durables,Dixon Technologies (India) Ltd.
+india consumption,EICHERMOT,Automobile and Auto Components,Eicher Motors Ltd.
+india consumption,ETERNAL,Consumer Services,Eternal Ltd.
+india consumption,FORTIS,Healthcare,Fortis Healthcare Ltd.
+india consumption,GODREJCP,Fast Moving Consumer Goods,Godrej Consumer Products Ltd.
+india consumption,HEROMOTOCO,Automobile and Auto Components,Hero MotoCorp Ltd.
+india consumption,HINDUNILVR,Fast Moving Consumer Goods,Hindustan Unilever Ltd.
+india consumption,ITC,Fast Moving Consumer Goods,ITC Ltd.
+india consumption,INDHOTEL,Consumer Services,Indian Hotels Co. Ltd.
+india consumption,NAUKRI,Consumer Services,Info Edge (India) Ltd.
+india consumption,INDIGO,Services,InterGlobe Aviation Ltd.
+india consumption,M&M,Automobile and Auto Components,Mahindra & Mahindra Ltd.
+india consumption,MARUTI,Automobile and Auto Components,Maruti Suzuki India Ltd.
+india consumption,MAXHEALTH,Healthcare,Max Healthcare Institute Ltd.
+india consumption,NESTLEIND,Fast Moving Consumer Goods,Nestle India Ltd.
+india consumption,TVSMOTOR,Automobile and Auto Components,TVS Motor Company Ltd.
+india consumption,TATACONSUM,Fast Moving Consumer Goods,Tata Consumer Products Ltd.
+india consumption,TATAPOWER,Power,Tata Power Co. Ltd.
+india consumption,TITAN,Consumer Durables,Titan Company Ltd.
+india consumption,TORNTPHARM,Healthcare,Torrent Pharmaceuticals Ltd.
+india consumption,TRENT,Consumer Services,Trent Ltd.
+india consumption,UNITDSPR,Fast Moving Consumer Goods,United Spirits Ltd.
+india consumption,VBL,Fast Moving Consumer Goods,Varun Beverages Ltd.
+cpse,BEL,Capital Goods,Bharat Electronics Ltd.
+cpse,COALINDIA,Oil Gas & Consumable Fuels,Coal India Ltd.
+cpse,COCHINSHIP,Capital Goods,Cochin Shipyard Ltd.
+cpse,NBCC,Construction,NBCC (India) Ltd.
+cpse,NHPC,Power,NHPC Ltd.
+cpse,NLCINDIA,Power,NLC India Ltd.
+cpse,NTPC,Power,NTPC Ltd.
+cpse,ONGC,Oil Gas & Consumable Fuels,Oil & Natural Gas Corporation Ltd.
+cpse,OIL,Oil Gas & Consumable Fuels,Oil India Ltd.
+cpse,POWERGRID,Power,Power Grid Corporation of India Ltd.
+cpse,SJVN,Power,SJVN Ltd.
+mnc,ABB,Capital Goods,ABB India Ltd.
+mnc,AWL,Fast Moving Consumer Goods,AWL Agri Business Ltd.
+mnc,ABBOTINDIA,Healthcare,Abbott India Ltd.
+mnc,AMBUJACEM,Construction Materials,Ambuja Cements Ltd.
+mnc,ASHOKLEY,Capital Goods,Ashok Leyland Ltd.
+mnc,BOSCHLTD,Automobile and Auto Components,Bosch Ltd.
+mnc,BRITANNIA,Fast Moving Consumer Goods,Britannia Industries Ltd.
+mnc,CRISIL,Financial Services,CRISIL Ltd.
+mnc,CASTROLIND,Oil Gas & Consumable Fuels,Castrol India Ltd.
+mnc,COLPAL,Fast Moving Consumer Goods,Colgate Palmolive (India) Ltd.
+mnc,CUMMINSIND,Capital Goods,Cummins India Ltd.
+mnc,ESCORTS,Capital Goods,Escorts Kubota Ltd.
+mnc,GLAND,Healthcare,Gland Pharma Ltd.
+mnc,HINDUNILVR,Fast Moving Consumer Goods,Hindustan Unilever Ltd.
+mnc,POWERINDIA,Capital Goods,Hitachi Energy India Ltd.
+mnc,HYUNDAI,Automobile and Auto Components,Hyundai Motor India Ltd.
+mnc,LGEINDIA,Consumer Durables,LG Electronics India Ltd.
+mnc,LINDEINDIA,Chemicals,Linde India Ltd.
+mnc,MARUTI,Automobile and Auto Components,Maruti Suzuki India Ltd.
+mnc,NESTLEIND,Fast Moving Consumer Goods,Nestle India Ltd.
+mnc,NAM-INDIA,Financial Services,Nippon Life India Asset Management Ltd.
+mnc,OFSS,Information Technology,Oracle Financial Services Software Ltd.
+mnc,SCHAEFFLER,Automobile and Auto Components,Schaeffler India Ltd.
+mnc,ENRIN,Capital Goods,Siemens Energy India Ltd.
+mnc,SIEMENS,Capital Goods,Siemens Ltd.
+mnc,TIMKEN,Capital Goods,Timken India Ltd.
+mnc,UBL,Fast Moving Consumer Goods,United Breweries Ltd.
+mnc,UNITDSPR,Fast Moving Consumer Goods,United Spirits Ltd.
+mnc,VAML,Metals & Mining,Vedanta Aluminium Metal Ltd.
+mnc,VEDL,Metals & Mining,Vedanta Ltd.
+services sector,ADANIPORTS,Services,Adani Ports and Special Economic Zone Ltd.
+services sector,ADANIPOWER,Power,Adani Power Ltd.
+services sector,APOLLOHOSP,Healthcare,Apollo Hospitals Enterprise Ltd.
+services sector,DMART,Consumer Services,Avenue Supermarts Ltd.
+services sector,AXISBANK,Financial Services,Axis Bank Ltd.
+services sector,BSE,Financial Services,BSE Ltd.
+services sector,BAJFINANCE,Financial Services,Bajaj Finance Ltd.
+services sector,BAJAJFINSV,Financial Services,Bajaj Finserv Ltd.
+services sector,BHARTIARTL,Telecommunication,Bharti Airtel Ltd.
+services sector,ETERNAL,Consumer Services,Eternal Ltd.
+services sector,FEDERALBNK,Financial Services,Federal Bank Ltd.
+services sector,HCLTECH,Information Technology,HCL Technologies Ltd.
+services sector,HDFCBANK,Financial Services,HDFC Bank Ltd.
+services sector,HDFCLIFE,Financial Services,HDFC Life Insurance Company Ltd.
+services sector,ICICIBANK,Financial Services,ICICI Bank Ltd.
+services sector,INDUSINDBK,Financial Services,IndusInd Bank Ltd.
+services sector,INFY,Information Technology,Infosys Ltd.
+services sector,INDIGO,Services,InterGlobe Aviation Ltd.
+services sector,JIOFIN,Financial Services,Jio Financial Services Ltd.
+services sector,KOTAKBANK,Financial Services,Kotak Mahindra Bank Ltd.
+services sector,MAXHEALTH,Healthcare,Max Healthcare Institute Ltd.
+services sector,NTPC,Power,NTPC Ltd.
+services sector,POWERGRID,Power,Power Grid Corporation of India Ltd.
+services sector,SBILIFE,Financial Services,SBI Life Insurance Company Ltd.
+services sector,SHRIRAMFIN,Financial Services,Shriram Finance Ltd.
+services sector,SBIN,Financial Services,State Bank of India
+services sector,TCS,Information Technology,Tata Consultancy Services Ltd.
+services sector,TATAPOWER,Power,Tata Power Co. Ltd.
+services sector,TECHM,Information Technology,Tech Mahindra Ltd.
+services sector,WIPRO,Information Technology,Wipro Ltd.
+healthcare index,ABBOTINDIA,Healthcare,Abbott India Ltd.
+healthcare index,ALKEM,Healthcare,Alkem Laboratories Ltd.
+healthcare index,APOLLOHOSP,Healthcare,Apollo Hospitals Enterprise Ltd.
+healthcare index,AUROPHARMA,Healthcare,Aurobindo Pharma Ltd.
+healthcare index,BIOCON,Healthcare,Biocon Ltd.
+healthcare index,CIPLA,Healthcare,Cipla Ltd.
+healthcare index,DIVISLAB,Healthcare,Divi's Laboratories Ltd.
+healthcare index,DRREDDY,Healthcare,Dr. Reddy's Laboratories Ltd.
+healthcare index,FORTIS,Healthcare,Fortis Healthcare Ltd.
+healthcare index,GLAND,Healthcare,Gland Pharma Ltd.
+healthcare index,GLENMARK,Healthcare,Glenmark Pharmaceuticals Ltd.
+healthcare index,IPCALAB,Healthcare,Ipca Laboratories Ltd.
+healthcare index,KIMS,Healthcare,Krishna Institute of Medical Sciences Ltd.
+healthcare index,LAURUSLABS,Healthcare,Laurus Labs Ltd.
+healthcare index,LUPIN,Healthcare,Lupin Ltd.
+healthcare index,MANKIND,Healthcare,Mankind Pharma Ltd.
+healthcare index,MAXHEALTH,Healthcare,Max Healthcare Institute Ltd.
+healthcare index,SUNPHARMA,Healthcare,Sun Pharmaceutical Industries Ltd.
+healthcare index,TORNTPHARM,Healthcare,Torrent Pharmaceuticals Ltd.
+healthcare index,ZYDUSLIFE,Healthcare,Zydus Lifesciences Ltd.
+consumer durables,AMBER,Consumer Durables,Amber Enterprises India Ltd.
+consumer durables,BATAINDIA,Consumer Durables,Bata India Ltd.
+consumer durables,BLUESTARCO,Consumer Durables,Blue Star Ltd.
+consumer durables,CROMPTON,Consumer Durables,Crompton Greaves Consumer Electricals Ltd.
+consumer durables,DIXON,Consumer Durables,Dixon Technologies (India) Ltd.
+consumer durables,HAVELLS,Consumer Durables,Havells India Ltd.
+consumer durables,KAJARIACER,Consumer Durables,Kajaria Ceramics Ltd.
+consumer durables,KALYANKJIL,Consumer Durables,Kalyan Jewellers India Ltd.
+consumer durables,LGEINDIA,Consumer Durables,LG Electronics India Ltd.
+consumer durables,PGEL,Consumer Durables,PG Electroplast Ltd.
+consumer durables,THANGAMAYL,Consumer Durables,Thangamayil Jewellery Ltd.
+consumer durables,TITAN,Consumer Durables,Titan Company Ltd.
+consumer durables,VOLTAS,Consumer Durables,Voltas Ltd.
+consumer durables,WHIRLPOOL,Consumer Durables,Whirlpool of India Ltd.
+oil & gas,ATGL,Oil Gas & Consumable Fuels,Adani Total Gas Ltd.
+oil & gas,AEGISLOG,Oil Gas & Consumable Fuels,Aegis Logistics Ltd.
+oil & gas,AEGISVOPAK,Oil Gas & Consumable Fuels,Aegis Vopak Terminals Ltd.
+oil & gas,BPCL,Oil Gas & Consumable Fuels,Bharat Petroleum Corporation Ltd.
+oil & gas,CASTROLIND,Oil Gas & Consumable Fuels,Castrol India Ltd.
+oil & gas,CHENNPETRO,Oil Gas & Consumable Fuels,Chennai Petroleum Corporation Ltd.
+oil & gas,GAIL,Oil Gas & Consumable Fuels,GAIL (India) Ltd.
+oil & gas,HINDPETRO,Oil Gas & Consumable Fuels,Hindustan Petroleum Corporation Ltd.
+oil & gas,IOC,Oil Gas & Consumable Fuels,Indian Oil Corporation Ltd.
+oil & gas,IGL,Oil Gas & Consumable Fuels,Indraprastha Gas Ltd.
+oil & gas,MGL,Oil Gas & Consumable Fuels,Mahanagar Gas Ltd.
+oil & gas,ONGC,Oil Gas & Consumable Fuels,Oil & Natural Gas Corporation Ltd.
+oil & gas,OIL,Oil Gas & Consumable Fuels,Oil India Ltd.
+oil & gas,PETRONET,Oil Gas & Consumable Fuels,Petronet LNG Ltd.
+oil & gas,RELIANCE,Oil Gas & Consumable Fuels,Reliance Industries Ltd.
+capital markets,360ONE,Financial Services,360 ONE WAM Ltd.
+capital markets,ABSLAMC,Financial Services,Aditya Birla Sun Life AMC Ltd.
+capital markets,ANANDRATHI,Financial Services,Anand Rathi Wealth Ltd.
+capital markets,ANGELONE,Financial Services,Angel One Ltd.
+capital markets,BSE,Financial Services,BSE Ltd.
+capital markets,GROWW,Financial Services,Billionbrains Garage Ventures Ltd.
+capital markets,CDSL,Financial Services,Central Depository Services (India) Ltd.
+capital markets,CAMS,Financial Services,Computer Age Management Services Ltd.
+capital markets,HDFCAMC,Financial Services,HDFC Asset Management Company Ltd.
+capital markets,ICICIAMC,Financial Services,ICICI Prudential Asset Management Company Ltd.
+capital markets,IEX,Financial Services,Indian Energy Exchange Ltd.
+capital markets,KFINTECH,Financial Services,Kfin Technologies Ltd.
+capital markets,MOTILALOFS,Financial Services,Motilal Oswal Financial Services Ltd.
+capital markets,MCX,Financial Services,Multi Commodity Exchange of India Ltd.
+capital markets,NAM-INDIA,Financial Services,Nippon Life India Asset Management Ltd.
+capital markets,NUVAMA,Financial Services,Nuvama Wealth Management Ltd.
+capital markets,UTIAMC,Financial Services,UTI Asset Management Company Ltd.
+chemicals,AARTIIND,Chemicals,Aarti Industries Ltd.
+chemicals,ATUL,Chemicals,Atul Ltd.
+chemicals,CHAMBLFERT,Chemicals,Chambal Fertilizers & Chemicals Ltd.
+chemicals,COROMANDEL,Chemicals,Coromandel International Ltd.
+chemicals,DEEPAKFERT,Chemicals,Deepak Fertilisers & Petrochemicals Corp. Ltd.
+chemicals,DEEPAKNTR,Chemicals,Deepak Nitrite Ltd.
+chemicals,FLUOROCHEM,Chemicals,Gujarat Fluorochemicals Ltd.
+chemicals,HSCL,Chemicals,Himadri Speciality Chemical Ltd.
+chemicals,JUBLINGREA,Chemicals,Jubilant Ingrevia Ltd.
+chemicals,LINDEINDIA,Chemicals,Linde India Ltd.
+chemicals,NAVINFLUOR,Chemicals,Navin Fluorine International Ltd.
+chemicals,PCBL,Chemicals,PCBL Chemical Ltd.
+chemicals,PIIND,Chemicals,PI Industries Ltd.
+chemicals,PIDILITIND,Chemicals,Pidilite Industries Ltd.
+chemicals,SRF,Chemicals,SRF Ltd.
+chemicals,SOLARINDS,Chemicals,Solar Industries India Ltd.
+chemicals,SUMICHEM,Chemicals,Sumitomo Chemical India Ltd.
+chemicals,SWANCORP,Chemicals,Swan Corp Ltd.
+chemicals,TATACHEM,Chemicals,Tata Chemicals Ltd.
+chemicals,UPL,Chemicals,UPL Ltd.
+india defence,AXISCADES,Capital Goods,AXISCADES Technologies Ltd.
+india defence,AEQUS,Capital Goods,Aequs Ltd.
+india defence,APOLLO,Capital Goods,Apollo Micro Systems Ltd.
+india defence,ASTRAMICRO,Capital Goods,Astra Microwave Products Ltd.
+india defence,BEML,Capital Goods,BEML Ltd.
+india defence,BDL,Capital Goods,Bharat Dynamics Ltd.
+india defence,BEL,Capital Goods,Bharat Electronics Ltd.
+india defence,BHARATFORG,Automobile and Auto Components,Bharat Forge Ltd.
+india defence,CENTUM,Capital Goods,Centum Electronics Ltd.
+india defence,COCHINSHIP,Capital Goods,Cochin Shipyard Ltd.
+india defence,DATAPATTNS,Capital Goods,Data Patterns (India) Ltd.
+india defence,DYNAMATECH,Capital Goods,Dynamatic Technologies Ltd.
+india defence,GRSE,Capital Goods,Garden Reach Shipbuilders & Engineers Ltd.
+india defence,HAL,Capital Goods,Hindustan Aeronautics Ltd.
+india defence,MTARTECH,Capital Goods,MTAR Technologies Ltd.
+india defence,MAZDOCK,Capital Goods,Mazagoan Dock Shipbuilders Ltd.
+india defence,MIDHANI,Capital Goods,Mishra Dhatu Nigam Ltd.
+india defence,PARAS,Capital Goods,Paras Defence and Space Technologies Ltd.
+india defence,SIGMAADV,Capital Goods,SIGMA ADVANCED SYSTEMS LTD.
+india defence,SOLARINDS,Chemicals,Solar Industries India Ltd.
+india defence,UNIMECH,Capital Goods,Unimech Aerospace and Manufacturing Ltd.
+india defence,ZENTEC,Capital Goods,Zen Technologies Ltd.
+housing finance,AADHARHFC,Financial Services,Aadhar Housing Finance Ltd.
+housing finance,AAVAS,Financial Services,Aavas Financiers Ltd.
+housing finance,APTUS,Financial Services,Aptus Value Housing Finance India Ltd.
+housing finance,BAJAJHFL,Financial Services,Bajaj Housing Finance Ltd.
+housing finance,CANFINHOME,Financial Services,Can Fin Homes Ltd.
+housing finance,HOMEFIRST,Financial Services,Home First Finance Company India Ltd.
+housing finance,INDIASHLTR,Financial Services,India Shelter Finance Corporation Ltd.
+housing finance,LICHSGFIN,Financial Services,LIC Housing Finance Ltd.
+housing finance,PNBHOUSING,Financial Services,PNB Housing Finance Ltd.
+housing finance,SAMMAANCAP,Financial Services,Sammaan Capital Ltd.
+cement,ACC,Construction Materials,ACC Ltd.
+cement,AMBUJACEM,Construction Materials,Ambuja Cements Ltd.
+cement,BIRLACORPN,Construction Materials,Birla Corporation Ltd.
+cement,DALBHARAT,Construction Materials,Dalmia Bharat Ltd.
+cement,GRASIM,Construction Materials,Grasim Industries Ltd.
+cement,INDIACEM,Construction Materials,India Cements Ltd.
+cement,JKCEMENT,Construction Materials,J.K. Cement Ltd.
+cement,JSWCEMENT,Construction Materials,JSW Cement Ltd.
+cement,NUVOCO,Construction Materials,Nuvoco Vistas Corporation Ltd.
+cement,SHREECEM,Construction Materials,Shree Cement Ltd.
+cement,RAMCOCEM,Construction Materials,The Ramco Cements Ltd.
+cement,ULTRACEMCO,Construction Materials,UltraTech Cement Ltd.
+capital goods,ABB,Capital Goods,ABB India Ltd.
+capital goods,AIAENG,Capital Goods,AIA Engineering Ltd.
+capital goods,APLAPOLLO,Capital Goods,APL Apollo Tubes Ltd.
+capital goods,APARINDS,Capital Goods,Apar Industries Ltd.
+capital goods,ASHOKLEY,Capital Goods,Ashok Leyland Ltd.
+capital goods,ASTRAMICRO,Capital Goods,Astra Microwave Products Ltd.
+capital goods,ASTRAL,Capital Goods,Astral Ltd.
+capital goods,BEML,Capital Goods,BEML Ltd.
+capital goods,BDL,Capital Goods,Bharat Dynamics Ltd.
+capital goods,BEL,Capital Goods,Bharat Electronics Ltd.
+capital goods,BHEL,Capital Goods,Bharat Heavy Electricals Ltd.
+capital goods,CGPOWER,Capital Goods,CG Power and Industrial Solutions Ltd.
+capital goods,CARBORUNIV,Capital Goods,Carborundum Universal Ltd.
+capital goods,COCHINSHIP,Capital Goods,Cochin Shipyard Ltd.
+capital goods,CUMMINSIND,Capital Goods,Cummins India Ltd.
+capital goods,DATAPATTNS,Capital Goods,Data Patterns (India) Ltd.
+capital goods,ELGIEQUIP,Capital Goods,Elgi Equipments Ltd.
+capital goods,ESCORTS,Capital Goods,Escorts Kubota Ltd.
+capital goods,FINCABLES,Capital Goods,Finolex Cables Ltd.
+capital goods,GVT&D,Capital Goods,GE Vernova T&D India Ltd.
+capital goods,GRSE,Capital Goods,Garden Reach Shipbuilders & Engineers Ltd.
+capital goods,GRINDWELL,Capital Goods,Grindwell Norton Ltd.
+capital goods,HBLENGINE,Capital Goods,HBL Engineering Ltd.
+capital goods,HAL,Capital Goods,Hindustan Aeronautics Ltd.
+capital goods,POWERINDIA,Capital Goods,Hitachi Energy India Ltd.
+capital goods,HONAUT,Capital Goods,Honeywell Automation India Ltd.
+capital goods,INOXWIND,Capital Goods,Inox Wind Ltd.
+capital goods,JYOTICNC,Capital Goods,Jyoti CNC Automation Ltd.
+capital goods,KEI,Capital Goods,KEI Industries Ltd.
+capital goods,KAYNES,Capital Goods,Kaynes Technology India Ltd.
+capital goods,KIRLOSENG,Capital Goods,Kirloskar Oil Eng Ltd.
+capital goods,MTARTECH,Capital Goods,MTAR Technologies Ltd.
+capital goods,MAZDOCK,Capital Goods,Mazagoan Dock Shipbuilders Ltd.
+capital goods,PTCIL,Capital Goods,PTC Industries Ltd.
+capital goods,POLYCAB,Capital Goods,Polycab India Ltd.
+capital goods,PREMIERENE,Capital Goods,Premier Energies Ltd.
+capital goods,ENRIN,Capital Goods,Siemens Energy India Ltd.
+capital goods,SIEMENS,Capital Goods,Siemens Ltd.
+capital goods,SUPREMEIND,Capital Goods,Supreme Industries Ltd.
+capital goods,SUZLON,Capital Goods,Suzlon Energy Ltd.
+capital goods,TDPOWERSYS,Capital Goods,TD Power Systems Ltd.
+capital goods,TMCV,Capital Goods,Tata Motors Ltd.
+capital goods,THERMAX,Capital Goods,Thermax Ltd.
+capital goods,TIMKEN,Capital Goods,Timken India Ltd.
+capital goods,TITAGARH,Capital Goods,Titagarh Rail Systems Ltd.
+capital goods,TRITURBINE,Capital Goods,Triveni Turbine Ltd.
+capital goods,USHAMART,Capital Goods,Usha Martin Ltd.
+capital goods,VOLTAMP,Capital Goods,Voltamp Transformers Ltd
+capital goods,WAAREEENER,Capital Goods,Waaree Energies Ltd.
+capital goods,WELCORP,Capital Goods,Welspun Corp Ltd.
