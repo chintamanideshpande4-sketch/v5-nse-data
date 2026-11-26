@@ -1,0 +1,31 @@
+name: Research - sector constituents (one-off)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sectors:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download NSE sector index constituent lists
+        run: python fetch_sectors.py
+      - name: Save to the research-sectors branch (main is not touched)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/out && cp sectors/* /tmp/out/
+          git checkout --orphan research-sectors
+          git rm -rf -q --cached .
+          rm -rf ./*
+          mkdir -p sectors && cp /tmp/out/* sectors/
+          git add sectors
+          git commit -q -m "Sector constituents $(date -u +%F)"
+          git push -f origin research-sectors
